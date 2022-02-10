@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import mobile from "./mobile.png";
 import shape from "./shape-bg.png";
+import banner from "./banner.jpg";
 import AppleIcon from "@mui/icons-material/Apple";
 import AndroidIcon from "@mui/icons-material/Android";
 import DesktopWindowsIcon from "@mui/icons-material/DesktopWindows";
@@ -279,6 +280,30 @@ const Home = () => {
         </div>
       </div>
       {/*---------------------- feature section end -----------------------*/}
+      {/*---------------------- video section start -----------------------*/}
+      <div className="video-container">
+        <div className="video-section">
+          <img src={banner} alt="" />
+        </div>
+        <div className="video-content">
+          <div>
+            <h2>Video Title</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam,
+              ullam!
+            </p>
+            <iframe
+              src="https://www.youtube.com/embed/9CEW3Tmx2tg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div className="banner-overlay"></div>
+      </div>
+      {/*---------------------- video section end -----------------------*/}
     </div>
   );
 };
