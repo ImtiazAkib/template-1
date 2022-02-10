@@ -8,6 +8,7 @@ import DesktopWindowsIcon from "@mui/icons-material/DesktopWindows";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import CloseIcon from "@mui/icons-material/Close";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -117,6 +118,112 @@ const Home = () => {
         </div>
       </div>
       {/*---------------------- user and download section -----------------------*/}
+      {/*---------------------- feature section start -----------------------*/}
+      <div className="features">
+        {/*-------------------- feature top section ----------------------*/}
+        <div className="text-center feature-head mt-5">
+          <h1 style={{ color: "#2c3e50" }}>ApeTech Features</h1>
+          <p style={{ color: "#787878" }}>
+            Continually network virtual strategic theme areas vis-a-vis
+            ubiquitous potentialities. Holisticly <br /> negotiate focused
+            e-tailers without premium solutions.
+          </p>
+        </div>
+        <div className="row feature-row">
+          <div className="col-lg-4">
+            <div className="d-flex mb-5 single-feature">
+              <div className="me-2 feature-icon d-flex align-items-center justify-content-center">
+                <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+              </div>
+              <div>
+                <h4>Responsive web design</h4>
+                <p>
+                  Modular and interchangable <br /> componente between layouts
+                  and <br /> even demos.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex mb-5 single-feature">
+                <div className="me-2 feature-icon d-flex align-items-center justify-content-center">
+                  <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                </div>
+                <div>
+                  <h4>Responsive web design</h4>
+                  <p>
+                    Modular and interchangable <br /> componente between layouts
+                    and <br /> even demos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex mb-5 single-feature">
+                <div className="me-2 feature-icon d-flex align-items-center justify-content-center">
+                  <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                </div>
+                <div>
+                  <h4>Responsive web design</h4>
+                  <p>
+                    Modular and interchangable <br /> componente between layouts
+                    and <br /> even demos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 feature-row-img">
+            <img src={mobile} alt="" />
+          </div>
+          <div className="col-lg-4">
+            <div>
+              <div className="d-flex mb-5 single-feature">
+                <div className="me-2 feature-icon d-flex align-items-center justify-content-center">
+                  <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                </div>
+                <div>
+                  <h4>Responsive web design</h4>
+                  <p>
+                    Modular and interchangable <br /> componente between layouts
+                    and <br /> even demos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex mb-5 single-feature">
+                <div className="me-2 feature-icon d-flex align-items-center justify-content-center">
+                  <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                </div>
+                <div>
+                  <h4>Responsive web design</h4>
+                  <p>
+                    Modular and interchangable <br /> componente between layouts
+                    and <br /> even demos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex mb-5 single-feature">
+                <div className="me-2 feature-icon d-flex align-items-center justify-content-center">
+                  <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                </div>
+                <div>
+                  <h4>Responsive web design</h4>
+                  <p>
+                    Modular and interchangable <br /> componente between layouts
+                    and <br /> even demos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*-------------------- feature bottom section -------------------------*/}
+        <div></div>
+      </div>
+      {/*---------------------- feature section end -----------------------*/}
     </div>
   );
 };

@@ -125,6 +125,35 @@
   height: 100%;
 }
 
+.features {
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+.feature-row {
+  margin-left: 110px;
+  margin-top: 70px;
+}
+.feature-row-img {
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+}
+.single-feature:hover {
+  cursor: pointer;
+}
+.single-feature:hover .feature-icon {
+  border-radius: 20px;
+}
+.feature-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+  background-color: #281483;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
 @media only screen and (max-width: 650px) {
   .home-banner {
     flex-direction: column;
@@ -155,6 +184,15 @@
   }
   .shape-img {
     bottom: 120px;
+  }
+  .feature-head {
+    margin: 0px 20px;
+  }
+  .feature-row-img {
+    display: none;
+  }
+  .feature-row {
+    margin-left: 30px;
   }
 }
 
