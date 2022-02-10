@@ -221,7 +221,62 @@ const Home = () => {
           </div>
         </div>
         {/*-------------------- feature bottom section -------------------------*/}
-        <div></div>
+        <div className="d-lg-flex mb-5">
+          <div className="single-promo">
+            <div className="text-center single-promo-content">
+              <div>
+                <SentimentVerySatisfiedIcon
+                  style={{ color: "#9871d6" }}
+                  fontSize="large"
+                ></SentimentVerySatisfiedIcon>
+              </div>
+              <h6>Easy To Use</h6>
+              <p>
+                Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut
+                vel hinc solet tincidunt.
+              </p>
+            </div>
+          </div>
+          <div className="text-center single-promo">
+            <div>
+              <SentimentVerySatisfiedIcon
+                style={{ color: "#9871d6" }}
+                fontSize="large"
+              ></SentimentVerySatisfiedIcon>
+            </div>
+            <h6>Easy To Use</h6>
+            <p>
+              Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut vel
+              hinc solet tincidunt.
+            </p>
+          </div>
+          <div className="text-center single-promo">
+            <div>
+              <SentimentVerySatisfiedIcon
+                style={{ color: "#9871d6" }}
+                fontSize="large"
+              ></SentimentVerySatisfiedIcon>
+            </div>
+            <h6>Easy To Use</h6>
+            <p>
+              Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut vel
+              hinc solet tincidunt.
+            </p>
+          </div>
+          <div className="text-center single-promo">
+            <div>
+              <SentimentVerySatisfiedIcon
+                style={{ color: "#9871d6" }}
+                fontSize="large"
+              ></SentimentVerySatisfiedIcon>
+            </div>
+            <h6>Easy To Use</h6>
+            <p>
+              Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut vel
+              hinc solet tincidunt.
+            </p>
+          </div>
+        </div>
       </div>
       {/*---------------------- feature section end -----------------------*/}
     </div>
