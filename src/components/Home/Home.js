@@ -222,7 +222,7 @@ const Home = () => {
           </div>
         </div>
         {/*-------------------- feature bottom section -------------------------*/}
-        <div className="d-lg-flex mb-5">
+        <div className="d-lg-flex promo-container mb-5">
           <div className="single-promo">
             <div className="text-center single-promo-content">
               <div>
@@ -295,15 +295,89 @@ const Home = () => {
             <iframe
               src="https://www.youtube.com/embed/9CEW3Tmx2tg"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
         <div className="banner-overlay"></div>
       </div>
       {/*---------------------- video section end -----------------------*/}
+
+      {/*------------------- price plan card section ---------------*/}
+      <div className="card-container">
+        <div className="text-center card-container-header mb-5">
+          <h2 style={{ color: "#2c3e50" }}>Pricing Plan</h2>
+          <p>
+            we believe in making simple and fair pricing plans. Choose your next
+            successful plan and get started today!.
+          </p>
+        </div>
+        <div className="d-lg-flex cards">
+          <div className="single-card text-center">
+            <div className="card-titile">Basic</div>
+            <div className="card-body text-center">
+              <div className="mb-3">
+                <h1>$278</h1>
+                <small>per month</small>
+              </div>
+              <div>
+                <div className="card-body-detail">
+                  <table>
+                    <tr className="color-row">
+                      <td>
+                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>{" "}
+                        same here
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                      </td>
+                      <td>same here</td>
+                    </tr>
+                    <tr className="color-row">
+                      <td>
+                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                      </td>
+                      <td>same here</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                      </td>
+                      <td>same here</td>
+                    </tr>
+                    <tr className="color-row">
+                      <td>
+                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+                      </td>
+                      <td>same here</td>
+                    </tr>
+                    <tr></tr>
+                  </table>
+                </div>
+                <div className="mt-2">
+                  <button>Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="single-card">
+            <div className="card-titile">Standard</div>
+            <div className="card-body"></div>
+          </div>
+          <div className="single-card">
+            <div className="card-titile">Premium</div>
+            <div className="card-body"></div>
+          </div>
+          <div className="single-card">
+            <div className="card-titile">Ultimate</div>
+            <div className="card-body"></div>
+          </div>
+        </div>
+      </div>
+      {/*------------------- price plan card section end ---------------*/}
     </div>
   );
 };
