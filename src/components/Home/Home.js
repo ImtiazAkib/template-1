@@ -10,6 +10,7 @@ import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import CloseIcon from "@mui/icons-material/Close";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
+import CheckIcon from "@mui/icons-material/Check";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -315,65 +316,112 @@ const Home = () => {
         </div>
         <div className="d-lg-flex cards">
           <div className="single-card text-center">
-            <div className="card-titile">Basic</div>
+            <div className="card-title">Basic</div>
             <div className="card-body text-center">
               <div className="mb-3">
-                <h1>$278</h1>
+                <h1 style={{ fontWeight: "200" }}>$278</h1>
                 <small>per month</small>
               </div>
               <div>
                 <div className="card-body-detail">
-                  <table>
-                    <tr className="color-row">
-                      <td>
-                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>{" "}
-                        same here
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
-                      </td>
-                      <td>same here</td>
-                    </tr>
-                    <tr className="color-row">
-                      <td>
-                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
-                      </td>
-                      <td>same here</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
-                      </td>
-                      <td>same here</td>
-                    </tr>
-                    <tr className="color-row">
-                      <td>
-                        <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
-                      </td>
-                      <td>same here</td>
-                    </tr>
-                    <tr></tr>
-                  </table>
+                  <div className="row">
+                    <div className="col-12">
+                      <ul className="content">
+                        <li className="highlight">same here</li>
+                        <li className="not-highlight">sameb herw asfn</li>
+                        <li className="highlight">dgjgb kghb h</li>
+                        <li className="not-highlight">gvasjv kagsjb hgju</li>
+                        <li className="highlight">vjhjh fgtvfghv</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div className="mt-2">
+                <div className="mt-2 card-btn">
                   <button>Buy</button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="single-card">
-            <div className="card-titile">Standard</div>
-            <div className="card-body"></div>
+          <div className="single-card text-center">
+            <div className="card-title">Basic</div>
+            <div className="card-body text-center">
+              <div className="mb-3">
+                <h1 style={{ fontWeight: "200" }}>$278</h1>
+                <small>per month</small>
+              </div>
+              <div>
+                <div className="card-body-detail">
+                  <div className="row">
+                    <div className="col-12">
+                      <ul className="content">
+                        <li className="highlight">same here</li>
+                        <li className="not-highlight">sameb herw asfn</li>
+                        <li className="highlight">dgjgb kghb h</li>
+                        <li className="not-highlight">gvasjv kagsjb hgju</li>
+                        <li className="highlight">vjhjh fgtvfghv</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-2 card-btn">
+                  <button>Buy</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="single-card">
-            <div className="card-titile">Premium</div>
-            <div className="card-body"></div>
+          <div className="single-card text-center">
+            <div className="card-title">Basic</div>
+            <div className="card-body text-center">
+              <div className="mb-3">
+                <h1 style={{ fontWeight: "200" }}>$278</h1>
+                <small>per month</small>
+              </div>
+              <div>
+                <div className="card-body-detail">
+                  <div className="row">
+                    <div className="col-12">
+                      <ul className="content">
+                        <li className="highlight">same here</li>
+                        <li className="not-highlight">sameb herw asfn</li>
+                        <li className="highlight">dgjgb kghb h</li>
+                        <li className="not-highlight">gvasjv kagsjb hgju</li>
+                        <li className="highlight">vjhjh fgtvfghv</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-2 card-btn">
+                  <button>Buy</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="single-card">
-            <div className="card-titile">Ultimate</div>
-            <div className="card-body"></div>
+          <div className="single-card text-center">
+            <div className="card-title">Basic</div>
+            <div className="card-body text-center">
+              <div className="mb-3">
+                <h1 style={{ fontWeight: "200" }}>$278</h1>
+                <small>per month</small>
+              </div>
+              <div>
+                <div className="card-body-detail">
+                  <div className="row">
+                    <div className="col-12">
+                      <ul className="content">
+                        <li className="highlight">same here</li>
+                        <li className="not-highlight">sameb herw asfn</li>
+                        <li className="highlight">dgjgb kghb h</li>
+                        <li className="not-highlight">gvasjv kagsjb hgju</li>
+                        <li className="highlight">vjhjh fgtvfghv</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-2 card-btn">
+                  <button>Buy</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
