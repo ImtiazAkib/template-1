@@ -1,0 +1,46 @@
+.container-accordion {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.my-accordion {
+  width: 600px;
+  margin: 40px 0px;
+}
+.accordion-single-item {
+  background-color: #eceaea;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  border-left: 2px solid #003bb1;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+.title span {
+  display: block;
+  font-size: 25px;
+  transition: all 0.5s ease;
+  color: #8f6ed5;
+}
+.title:hover h4 {
+  color: #003bb1;
+}
+.title h4 {
+  font-size: 15px;
+}
+.title:hover {
+  cursor: pointer;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content-show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

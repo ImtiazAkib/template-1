@@ -3,6 +3,14 @@ import "./Home.css";
 import mobile from "./mobile.png";
 import shape from "./shape-bg.png";
 import banner from "./banner.jpg";
+import faqImg from "./1.png";
+import dlImg from "./hand-mobile.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faApple,
+  faGooglePlay,
+  faWindows,
+} from "@fortawesome/free-brands-svg-icons";
 import AppleIcon from "@mui/icons-material/Apple";
 import AndroidIcon from "@mui/icons-material/Android";
 import DesktopWindowsIcon from "@mui/icons-material/DesktopWindows";
@@ -10,7 +18,8 @@ import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import CloseIcon from "@mui/icons-material/Close";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
-import CheckIcon from "@mui/icons-material/Check";
+import Testimonial from "../Testimonial/Tesmonial";
+import Accordion from "../Accordion/Accordion";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -426,6 +435,162 @@ const Home = () => {
         </div>
       </div>
       {/*------------------- price plan card section end ---------------*/}
+      {/* ----------------- Testimonial Section Start ----------------------------- */}
+      <div className="testimonial">
+        <div className="testimonial-head">
+          <div className="testimonial-content">
+            <div>
+              <h2 style={{ color: "#2c3e50" }} className="mb-3">
+                10k+ Experts Trust Us
+              </h2>
+              <p>
+                Streamlining different processes and workflows by using user
+                access control Onebook prompts efficiency and productivity
+                levels of an organization, and reduces operating costs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <Testimonial></Testimonial>
+        </div>
+      </div>
+      {/* ----------------- Testimonial Section End ----------------------------- */}
+      {/* ----------------- Faq Section Start ----------------------------- */}
+      <div className="faq">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div>
+                <div>
+                  <h4>Faq's</h4>
+                  <p>
+                    we believe in making simple and fair pricing plans. Choose
+                    your next successful plan and get started today!.
+                  </p>
+                </div>
+                <Accordion></Accordion>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="faq-img">
+                <div>
+                  <img src={faqImg} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* ----------------- Faq Section End ----------------------------- */}
+
+      {/* ----------------- Download Section Start ----------------------------- */}
+
+      <div>
+        <div className="download-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-5">
+                <div className="download-img">
+                  <img src={dlImg} alt="mobile" />
+                </div>
+              </div>
+              <div className="col-md-7 text-light">
+                <div className="download-content">
+                  <div className="download-content-head">
+                    <h2>Get The App Now !</h2>
+                    <p>
+                      Seamlessly transform timely e-commerce for diverse
+                      leadership skills. Conveniently reconceptualize go forward
+                      expertise without extensible applications.
+                      Phosfluorescently.
+                    </p>
+                  </div>
+                  <div className="download-button">
+                    <button>
+                      <div className="d-flex justify-content-around align-items-center text-center">
+                        <span className="download-icon">
+                          <FontAwesomeIcon
+                            icon={faApple}
+                            size={"2x"}
+                            className="apple-icon"
+                          />
+                        </span>
+                        <div>
+                          <p>
+                            Download On <br /> App store
+                          </p>
+                        </div>
+                      </div>
+                    </button>
+                    <button>
+                      <div className="d-flex justify-content-around align-items-center text-center">
+                        <span className="download-icon">
+                          <FontAwesomeIcon
+                            icon={faGooglePlay}
+                            size={"2x"}
+                            className="apple-icon"
+                          />
+                        </span>
+                        <div>
+                          <p>
+                            Get it on <br /> Google Play
+                          </p>
+                        </div>
+                      </div>
+                    </button>
+                    <button>
+                      <div className="d-flex justify-content-around align-items-center text-center">
+                        <span className="download-icon">
+                          <FontAwesomeIcon
+                            icon={faWindows}
+                            size={"2x"}
+                            className="apple-icon"
+                          />
+                        </span>
+                        <div>
+                          <p>
+                            Download On <br /> Windows
+                          </p>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="download-overlay"></div>
+        </div>
+      </div>
+
+      {/* ----------------- Download Section End ----------------------------- */}
+
+      {/* ----------------- News Section Start ----------------------------- */}
+
+      <div>
+        <div className="testimonial">
+          <div className="testimonial-head">
+            <div className="testimonial-content">
+              <div>
+                <h2 style={{ color: "#2c3e50" }} className="mb-3">
+                  10k+ Experts Trust Us
+                </h2>
+                <p>
+                  Streamlining different processes and workflows by using user
+                  access control Onebook prompts efficiency and productivity
+                  levels of an organization, and reduces operating costs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <Testimonial></Testimonial>
+          </div>
+        </div>
+      </div>
+
+      {/* ----------------- News Section Start ----------------------------- */}
     </div>
   );
 };
