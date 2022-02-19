@@ -1,0 +1,68 @@
+.contact-form form input {
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 2px;
+  margin: 10px 10px;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+.contact-form form input:focus {
+  border-bottom: 1px solid blue;
+  transition: all 0.8s ease;
+}
+.contact-form form textarea {
+  margin-top: 5px;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 1px solid white;
+  background: #f2f2f2;
+  margin-left: 10px;
+  outline: none;
+  padding: 12px;
+}
+.contact-form form textarea:focus {
+  border-bottom: 1px solid blue;
+  transition: all 0.8s ease;
+}
+.contact-form form .submit-btn {
+  width: 180px;
+  height: 40px;
+  padding: 5px;
+  background-color: #281483;
+  color: white;
+  border: 2px solid #281483;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+.contact-form form .submit-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.contact-form form input::placeholder {
+  color: rgb(141, 138, 138);
+  transition: color 0.3s ease;
+}
+.contact-form form input:focus::placeholder {
+  color: transparent;
+}
+.contact-form form textarea::placeholder {
+  color: rgb(141, 138, 138);
+  transition: color 0.3s ease;
+}
+.contact-form form textarea:focus::placeholder {
+  color: transparent;
+}
+
+@media only screen and (max-width: 650px) {
+  .contact-form form input {
+    width: 320px;
+  }
+  .contact-form form textarea {
+    width: 320px;
+    height: 150px;
+  }
+}

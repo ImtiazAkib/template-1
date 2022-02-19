@@ -20,6 +20,8 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
 import Testimonial from "../Testimonial/Tesmonial";
 import Accordion from "../Accordion/Accordion";
+import NewsTestimonial from "../News/News";
+import ContactUs from "../ContactUs/ContactUs";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -568,29 +570,56 @@ const Home = () => {
 
       {/* ----------------- News Section Start ----------------------------- */}
 
-      <div>
-        <div className="testimonial">
-          <div className="testimonial-head">
-            <div className="testimonial-content">
-              <div>
-                <h2 style={{ color: "#2c3e50" }} className="mb-3">
-                  10k+ Experts Trust Us
-                </h2>
-                <p>
-                  Streamlining different processes and workflows by using user
-                  access control Onebook prompts efficiency and productivity
-                  levels of an organization, and reduces operating costs.
-                </p>
-              </div>
+      <div className="news-section">
+        <div className="news-head">
+          <div className="news-detail">
+            <div>
+              <h2 style={{ color: "#2c3e50" }} className="mb-3">
+                Latest News
+              </h2>
+              <p>
+                Streamlining different processes and workflows by using user
+                access control Onebook prompts efficiency and productivity
+                levels of an organization, and reduces operating costs.
+              </p>
             </div>
           </div>
-          <div className="container">
-            <Testimonial></Testimonial>
+        </div>
+        <NewsTestimonial></NewsTestimonial>
+      </div>
+
+      {/* ----------------- News Section End ----------------------------- */}
+
+      {/* ----------------- Contact Us Section Start ----------------------------- */}
+
+      <div className="overflow-hidden">
+        <div className="row">
+          <div className="col-md-5 contact-head">
+            <div>
+              <h2 style={{ marginBottom: "20px" }}>Contact with us</h2>
+              <p>
+                It's very easy to get in touch with us. Just use the contact
+                form or pay us a visit for a coffee at the office. Dynamically
+                innovate competitive technology after an expanded array of
+                leadership.
+              </p>
+            </div>
+            <div>
+              <h5 style={{ marginBottom: "10px" }}>Head Office</h5>
+              <p>121 King St, Melbourne VIC 3000, Australia</p>
+              <p>Phone: +61 2 8376 6284</p>
+              <p>Email : hello@yourdomain.com</p>
+            </div>
+          </div>
+          <div className="col-md-7">
+            <div>
+              <ContactUs></ContactUs>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* ----------------- News Section Start ----------------------------- */}
+      {/* ----------------- Contact Us Section End ----------------------------- */}
     </div>
   );
 };

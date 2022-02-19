@@ -358,7 +358,7 @@
   background-attachment: fixed;
   background-position: center;
   height: 400px;
-  margin: 100px 0px;
+  margin: 100px 0px 0px 0px;
   position: relative;
 }
 .download-img {
@@ -413,6 +413,26 @@
 }
 /*--------------------------- Download Section End ----------------------------*/
 
+/*--------------------------- News Section Start ----------------------------*/
+
+.news-section {
+  padding: 100px 0px;
+  margin-bottom: 100px;
+  background-color: rgb(212 212 212 / 35%);
+}
+.news-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-detail {
+  width: 650px;
+  text-align: center;
+}
+/*--------------------------- News Section End ----------------------------*/
+.contact-head {
+  padding: 0px 0px 40px 40px;
+}
 /*--------------------- responsive for mobile device start ----------------------*/
 
 @media only screen and (max-width: 650px) {
@@ -504,6 +524,12 @@
   }
   .download-overlay {
     height: 500px;
+  }
+  .news-detail {
+    margin: 0px 20px;
+  }
+  .contact-head {
+    padding: 0px 22px;
   }
 }
 
