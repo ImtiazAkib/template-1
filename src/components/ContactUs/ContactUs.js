@@ -19,7 +19,11 @@ const ContactUs = () => {
       <div>
         <div className="form-container">
           <div className="contact-form">
-            <h4 style={{ marginLeft: "8px" }}>Reach us quickly</h4>
+            <h4
+              style={{ marginLeft: "8px", color: "#2c3e50", fontWeight: "600" }}
+            >
+              Reach us quickly
+            </h4>
             <form onSubmit={handleSubmit(onSubmit)}>
               <input
                 type="text"
@@ -60,7 +64,9 @@ const ContactUs = () => {
                 placeholder="Message"
                 onChange={handleChange}
                 {...register("textarea", { required: "This is required" })}
-              ></textarea>
+              >
+                {text}
+              </textarea>
 
               <br />
               <input type="submit" className="submit-btn" />

@@ -54,9 +54,9 @@ const Testimonial = () => {
                   <div className="item-img">
                     <img src={img1} alt="" />
                   </div>
-                  <div>
+                  <div className="item-bottom">
                     <h4>Beatrice Evan</h4>
-                    <p>Associate MAnager</p>
+                    <p>Associate Manager</p>
                   </div>
                 </div>
               </div>
@@ -79,9 +79,9 @@ const Testimonial = () => {
                   <div className="item-img">
                     <img src={img1} alt="" />
                   </div>
-                  <div>
+                  <div className="item-bottom">
                     <h4>Beatrice Evan</h4>
-                    <p>Associate MAnager</p>
+                    <p>Associate Manager</p>
                   </div>
                 </div>
               </div>
@@ -104,9 +104,9 @@ const Testimonial = () => {
                   <div className="item-img">
                     <img src={img1} alt="" />
                   </div>
-                  <div>
+                  <div className="item-bottom">
                     <h4>Beatrice Evan</h4>
-                    <p>Associate MAnager</p>
+                    <p>Associate Manager</p>
                   </div>
                 </div>
               </div>
@@ -129,9 +129,9 @@ const Testimonial = () => {
                   <div className="item-img">
                     <img src={img1} alt="" />
                   </div>
-                  <div>
+                  <div className="item-bottom">
                     <h4>Beatrice Evan</h4>
-                    <p>Associate MAnager</p>
+                    <p>Associate Manager</p>
                   </div>
                 </div>
               </div>
@@ -154,9 +154,9 @@ const Testimonial = () => {
                   <div className="item-img">
                     <img src={img1} alt="" />
                   </div>
-                  <div>
+                  <div className="item-bottom">
                     <h4>Beatrice Evan</h4>
-                    <p>Associate MAnager</p>
+                    <p>Associate Manager</p>
                   </div>
                 </div>
               </div>
@@ -179,9 +179,9 @@ const Testimonial = () => {
                   <div className="item-img">
                     <img src={img1} alt="" />
                   </div>
-                  <div>
+                  <div className="item-bottom">
                     <h4>Beatrice Evan</h4>
-                    <p>Associate MAnager</p>
+                    <p>Associate Manager</p>
                   </div>
                 </div>
               </div>

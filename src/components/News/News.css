@@ -12,7 +12,6 @@
 }
 .news-card {
   height: 100%;
-  border: 2px solid white;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgb(212 212 212 / 35%);
@@ -24,6 +23,10 @@
 .news-title {
   font-weight: 600;
   font-size: 20px;
+  color: #2c3e50;
+}
+.news-content {
+  color: #787878;
 }
 .news-title:hover {
   color: #281483;

@@ -27,6 +27,13 @@
 }
 .item-top p {
   padding: 0 40px;
+  color: #787878;
+}
+.item-bottom p {
+  color: #787878;
+}
+.item-bottom h4 {
+  color: #2c3e50;
 }
 .qoutte {
   position: absolute;
@@ -57,8 +64,6 @@
   background-color: #281483;
   color: white;
 }
-.owl-nav button:hover span {
-}
 
 @media only screen and (max-width: 650px) {
   .item {
@@ -70,5 +75,34 @@
   }
   .qoutte {
     top: 14px;
+  }
+}
+@media (min-width: 651px) and (max-width: 992px) {
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .qoutte {
+    top: 10px;
+  }
+  .owl-nav span {
+    font-size: 25px;
+    bottom: -20px;
+  }
+  .owl-nav {
+    right: -10px;
+  }
+  .item-img {
+    width: 50px;
+    height: 50px;
+  }
+  .item-bottom h4 {
+    font-size: 20px;
+  }
+  .item-bottom p {
+    font-size: 15px;
   }
 }
