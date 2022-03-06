@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
+import Typewriter from "typewriter-effect";
 import mobile from "./mobile.png";
 import shape from "./shape-bg.png";
 import banner from "./banner.jpg";
@@ -24,7 +25,7 @@ import ContactUs from "../ContactUs/ContactUs";
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
   return (
-    <div>
+    <div id="home">
       {/*-------------------
        banner section start
        ---------------------- */}
@@ -32,8 +33,17 @@ const Home = () => {
         <div className="banner">
           <div className="home-banner">
             <div className="banner-left">
-              <h1>ApeTech Provide -</h1>
-              <span>Lorem ipsum dolor</span>
+              <h1>Software Provide -</h1>
+              <Typewriter
+                options={{
+                  strings: ["Web Agency", "Social Marketing"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 200,
+                  deleteSpeed: 200,
+                  pauseFor: 3000,
+                }}
+              />
               <p>
                 Our software platform and custom development allow healthcare
                 institutions to create comprehensive cross-platform solutions
@@ -132,7 +142,7 @@ const Home = () => {
       </div>
       {/*---------------------- user and download section -----------------------*/}
       {/*---------------------- feature section start -----------------------*/}
-      <div className="features">
+      <div className="features" id="features">
         {/*-------------------- feature top section ----------------------*/}
         <div className="text-center feature-head mt-5">
           <h1 style={{ color: "#2c3e50" }}>ApeTech Features</h1>
@@ -323,7 +333,7 @@ const Home = () => {
       {/*---------------------- video section end -----------------------*/}
 
       {/*------------------- price plan card section ---------------*/}
-      <div className="card-container">
+      <div className="card-container" id="pricing">
         <div className="text-center card-container-header mb-5">
           <h2 style={{ color: "#2c3e50", fontWeight: "600" }}>Pricing Plan</h2>
           <p style={{ color: "#787878" }}>
@@ -468,7 +478,7 @@ const Home = () => {
       </div>
       {/* ----------------- Testimonial Section End ----------------------------- */}
       {/* ----------------- Faq Section Start ----------------------------- */}
-      <div className="faq">
+      <div className="faq" id="faq">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -579,7 +589,7 @@ const Home = () => {
 
       {/* ----------------- News Section Start ----------------------------- */}
 
-      <div className="news-section">
+      <div className="news-section" id="news">
         <div className="news-head">
           <div className="news-detail">
             <div>
@@ -604,7 +614,7 @@ const Home = () => {
 
       {/* ----------------- Contact Us Section Start ----------------------------- */}
 
-      <div className="overflow-hidden">
+      <div className="overflow-hidden" id="contact-us">
         <div className="row">
           <div className="col-md-5 contact-head">
             <div>

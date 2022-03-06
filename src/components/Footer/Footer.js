@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "./logo.png";
 import {
   faFacebookF,
   faTwitter,
@@ -14,7 +15,9 @@ const Footer = () => {
     <div>
       <div className="footer">
         <div className="footer-content">
-          <h3>Logo</h3>
+          <div className="logo">
+            <img src={logo} alt="" />
+          </div>
           <div className="footer-icons">
             <button className="icon-btn">
               <FontAwesomeIcon icon={faFacebookF} />
@@ -57,7 +60,7 @@ const Footer = () => {
             </svg>
           </div>
           <div>
-            <p>© copyright ApeTech Software Template By HtmlLover</p>
+            <p>© copyright Software Template By React</p>
           </div>
         </div>
       </div>

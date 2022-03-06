@@ -7,6 +7,9 @@
   align-items: center;
   margin-top: 80px;
 }
+.logo img {
+  height: 120px;
+}
 .footer-content {
   width: 400px;
   text-align: center;

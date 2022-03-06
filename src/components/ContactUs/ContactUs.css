@@ -41,6 +41,8 @@
   background-color: white;
   color: black;
   cursor: pointer;
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
 }
 .contact-form form input::placeholder {
   color: rgb(141, 138, 138);

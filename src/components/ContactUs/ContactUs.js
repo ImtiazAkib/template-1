@@ -61,7 +61,7 @@ const ContactUs = () => {
                 id="message"
                 cols="74"
                 rows="5"
-                placeholder="Message"
+                placeholder="message"
                 onChange={handleChange}
                 {...register("textarea", { required: "This is required" })}
               >

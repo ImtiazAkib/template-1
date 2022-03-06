@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Header.css";
+import logo from "./logo.png";
 import ReorderIcon from "@mui/icons-material/Reorder";
 
 const Header = () => {
@@ -10,17 +11,19 @@ const Header = () => {
       <div>
         <div className="navbar fixed-top">
           <div className="nav-left">
-            <h1>Logo</h1>
+            <div className="nav-logo">
+              <img src={logo} alt="" />
+            </div>
           </div>
 
           <div className="nav-right">
             <div className="links" id={showLink ? "hidden" : ""}>
-              <Link to="/home">Home</Link>
-              <Link to="/contact">Contact</Link>
-              <Link to="/blog">Blog</Link>
-              <Link to="/faq">Faq</Link>
-              <Link to="/sale">Sale</Link>
-              <Link to="/product">Product</Link>
+              <HashLink to="/home#home">Home</HashLink>
+              <HashLink to="/home#features">Features</HashLink>
+              <HashLink to="/home#pricing">Pricing</HashLink>
+              <HashLink to="/home#faq">Faq</HashLink>
+              <HashLink to="/home#news">News</HashLink>
+              <HashLink to="/home#contact-us">Contact</HashLink>
             </div>
             <button
               className="collapse-btn"
