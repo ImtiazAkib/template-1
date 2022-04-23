@@ -145,7 +145,7 @@ const Home = () => {
       <div className="features" id="features">
         {/*-------------------- feature top section ----------------------*/}
         <div className="text-center feature-head mt-5">
-          <h1 style={{ color: "#2c3e50" }}>ApeTech Features</h1>
+          <h1 style={{ color: "#2c3e50" }}>Tech Features</h1>
           <p style={{ color: "#787878" }}>
             Continually network virtual strategic theme areas vis-a-vis
             ubiquitous potentialities. Holisticly <br /> negotiate focused
