@@ -423,33 +423,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="single-card text-center">
-            <div className="card-title">Ultimate</div>
-            <div className="card-body text-center">
-              <div className="mb-3">
-                <h1 style={{ fontWeight: "200" }}>$278</h1>
-                <small>per month</small>
-              </div>
-              <div>
-                <div className="card-body-detail">
-                  <div className="row">
-                    <div className="col-12">
-                      <ul className="content">
-                        <li className="highlight">Same here</li>
-                        <li className="not-highlight">Discount 50%</li>
-                        <li className="highlight">New Offer</li>
-                        <li className="not-highlight">Vip member</li>
-                        <li className="highlight">On time delivery</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="mt-2 card-btn">
-                  <button>Buy</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       {/*------------------- price plan card section end ---------------*/}
